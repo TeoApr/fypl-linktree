@@ -1,3 +1,20 @@
+// Import all team member images
+import natSoa from '../assets/nat-soa.png';
+import hibranHotel from '../assets/hibran-hotel.png';
+import nandyaFoe from '../assets/nandya_foe.png';
+import ancillaFoh from '../assets/ancilla-foh.png';
+import geb from '../assets/geb.png';
+import jess from '../assets/jess.png';
+import alysiaManagement from '../assets/alysia-management.png';
+import shaeGbm from '../assets/shae-gbm.png';
+import fadilBc from '../assets/fadil-bc.png';
+import joDkv from '../assets/jo-dkv.png';
+import vanyaFilm from '../assets/vanya-film.png';
+import vin from '../assets/vin.png';
+import bagas from '../assets/bagas.png';
+import juanSocs from '../assets/juan-socs.png';
+import teoSocs from '../assets/teo-socs.png';
+
 export interface TeamMember {
   name: string;
   role: string;
@@ -13,91 +30,91 @@ const team: TeamMember[] = [
   {
     name: 'Nathalie Audrey Christabel Gultom',
     role: 'Accounting',
-    photo: '../src/assets/nat-soa.png',
+    photo: natSoa,
     socials: { instagram: '#' },
   },
   {
     name: 'Hibran Aditira',
     role: 'Marketing Communication',
-    photo: '../src/assets/hibran-hotel.png',
+    photo: hibranHotel,
     socials: { instagram: '#' },
   },
   {
     name: 'Nandya Zahra Armevia',
     role: 'Biotechnology',
-    photo: '../src/assets/nandya_foe.png',
+    photo: nandyaFoe,
     socials: { instagram: '#' },
   },
   {
     name: 'Maura Ancilla Paramaputri',
     role: 'International Relations',
-    photo: '../src/assets/ancilla-foh.png',
+    photo: ancillaFoh,
     socials: { instagram: '#' },
   },
   {
     name: 'Gabriel Felande Aulia',
     role: 'International Business Management',
-    photo: '../src/assets/geb.png',
+    photo: geb,
     socials: { instagram: '#' },
   },
   {
     name: 'Jessica Trishya Hendra W',
     role: 'International Business Management GC',
-    photo: '../src/assets/jess.png',
+    photo: jess,
     socials: { instagram: '#' },
   },
   {
     name: 'Alysia Kharlotta',
     role: 'Management',
-    photo: '../src/assets/alysia-management.png',
+    photo: alysiaManagement,
     socials: { instagram: '#' },
   },
   {
     name: 'Shaena Fazila Rachman',
     role: 'Global Business Marketing',
-    photo: '../src/assets/shae-gbm.png',
+    photo: shaeGbm,
     socials: { instagram: '#' },
   },
   {
     name: 'Muhammad Fadhil Habi',
     role: 'Business Creation',
-    photo: '../src/assets/fadil-bc.png',
+    photo: fadilBc,
     socials: { instagram: '#' },
   },
   {
     name: 'Jonathan Lin',
     role: 'DKV',
-    photo: '../src/assets/jo-dkv.png',
+    photo: joDkv,
     socials: { instagram: '#' },
   },
   {
     name: 'Vanya Aurelia Budiman',
     role: 'Film',
-    photo: '../src/assets/vanya-film.png',
+    photo: vanyaFilm,
     socials: { instagram: '#' },
   },
   {
     name: 'Vincent',
     role: 'Information System',
-    photo: '../src/assets/vin.png',
+    photo: vin,
     socials: { instagram: '#' },
   },
   {
     name: 'Benedictus Bagas Putra H',
     role: 'Information System',
-    photo: '../src/assets/bagas.png',
+    photo: bagas,
     socials: { instagram: '#' },
   },
   {
     name: 'Juan Ariviano C',
     role: 'Computer Science',
-    photo: '../src/assets/juan-socs.png',
+    photo: juanSocs,
     socials: { instagram: '#' },
   },
   {
     name: 'Teo Apriyandi',
     role: 'Computer Science',
-    photo: '../src/assets/teo-socs.png',
+    photo: teoSocs,
     socials: { instagram: '#' },
   },
 ];
